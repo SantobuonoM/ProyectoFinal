@@ -1,0 +1,13 @@
+[2023-01-25T16:43:10.576] [ERROR] default - Error ocurrido en productos ReferenceError: ProductoDao is not defined
+[2023-01-25T16:43:44.053] [ERROR] default - Error ocurrido en productos MongooseError: Operation `productos.updateOne()` buffering timed out after 10000ms
+[2023-01-25T16:46:18.902] [ERROR] default - Error ocurrido en productos MongooseError: Operation `productos.updateOne()` buffering timed out after 10000ms
+[2023-01-25T16:59:14.086] [ERROR] default - Error ocurrido en productos MongoNotConnectedError: Client must be connected before running operations
+[2023-01-25T16:59:18.844] [ERROR] default - Error ocurrido en productos MongoNotConnectedError: Client must be connected before running operations
+[2023-01-25T16:59:20.581] [ERROR] default - Error ocurrido en productos MongoNotConnectedError: Client must be connected before running operations
+[2023-01-25T16:59:50.043] [ERROR] default - Error ocurrido en productos MongooseError: Operation `productos.updateOne()` buffering timed out after 10000ms
+[2023-01-25T17:17:31.101] [ERROR] default - Error ocurrido en productos RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 63bcaa5119685fccb0bd3037
+[2023-01-25T17:18:20.924] [ERROR] default - Error ocurrido en productos RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 63bcaa5119685fccb0bd3037
+[2023-01-25T17:26:10.356] [ERROR] default - Error ocurrido en productos TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle

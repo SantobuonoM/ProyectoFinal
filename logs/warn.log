@@ -1,0 +1,672 @@
+[2023-01-25T16:43:10.576] [ERROR] default - Error ocurrido en productos ReferenceError: ProductoDao is not defined
+[2023-01-25T16:43:44.053] [ERROR] default - Error ocurrido en productos MongooseError: Operation `productos.updateOne()` buffering timed out after 10000ms
+[2023-01-25T16:46:18.902] [ERROR] default - Error ocurrido en productos MongooseError: Operation `productos.updateOne()` buffering timed out after 10000ms
+[2023-01-25T16:59:14.086] [ERROR] default - Error ocurrido en productos MongoNotConnectedError: Client must be connected before running operations
+[2023-01-25T16:59:18.844] [ERROR] default - Error ocurrido en productos MongoNotConnectedError: Client must be connected before running operations
+[2023-01-25T16:59:20.581] [ERROR] default - Error ocurrido en productos MongoNotConnectedError: Client must be connected before running operations
+[2023-01-25T16:59:50.043] [ERROR] default - Error ocurrido en productos MongooseError: Operation `productos.updateOne()` buffering timed out after 10000ms
+[2023-01-25T17:17:31.101] [ERROR] default - Error ocurrido en productos RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 63bcaa5119685fccb0bd3037
+[2023-01-25T17:18:20.924] [ERROR] default - Error ocurrido en productos RangeError [ERR_HTTP_INVALID_STATUS_CODE]: Invalid status code: 63bcaa5119685fccb0bd3037
+[2023-01-25T17:26:10.356] [ERROR] default - Error ocurrido en productos TypeError: Converting circular structure to JSON
+    --> starting at object with constructor 'Socket'
+    |     property 'parser' -> object with constructor 'HTTPParser'
+    --- property 'socket' closes the circle
+[2023-01-30T17:18:13.221] [WARN] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials g131-20020acab689000000b0036e9160f57csm5072497oif.20 - gsmtp
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials g131-20020acab689000000b0036e9160f57csm5072497oif.20 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T17:18:14.483] [WARN] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2023-01-30T17:20:13.186] [WARN] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials mv7-20020a0568706a8700b0015f4d1b195bsm5659035oab.36 - gsmtp
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials mv7-20020a0568706a8700b0015f4d1b195bsm5659035oab.36 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T17:20:14.140] [WARN] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2023-01-30T17:40:15.711] [WARN] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials n6-20020a4abd06000000b00517a7ac36c8sm552491oop.24 - gsmtp
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials n6-20020a4abd06000000b00517a7ac36c8sm552491oop.24 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T17:40:17.874] [WARN] default - RestException [Error]: The 'To' number 1112312312 is not a valid phone number.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2023-01-30T17:44:42.864] [WARN] default - MongoNotConnectedError: Client must be connected before running operations
+    at executeOperationAsync (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/mongodb/lib/operations/execute_operation.js:24:19)
+    at /home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/mongodb/lib/operations/execute_operation.js:12:45
+    at maybeCallback (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/mongodb/lib/utils.js:337:21)
+    at executeOperation (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/mongodb/lib/operations/execute_operation.js:12:38)
+    at FindCursor._initialize (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/mongodb/lib/cursor/find_cursor.js:54:50)
+    at FindCursor.[kInit] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/mongodb/lib/cursor/abstract_cursor.js:403:14)
+    at next (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/mongodb/lib/cursor/abstract_cursor.js:475:22)
+    at internal/util.js:297:30
+    at new Promise (<anonymous>)
+    at next (internal/util.js:296:12) {
+  [Symbol(errorLabels)]: Set {}
+}
+[2023-01-30T17:44:43.493] [WARN] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f4-20020a9d5f04000000b00684bcc9e204sm5783440oti.78 - gsmtp
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials f4-20020a9d5f04000000b00684bcc9e204sm5783440oti.78 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T17:47:10.594] [WARN] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials f14-20020a9d6c0e000000b0068bdfa56717sm157822otq.36 - gsmtp
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials f14-20020a9d6c0e000000b0068bdfa56717sm157822otq.36 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T17:47:12.690] [WARN] default - RestException [Error]: The 'To' number 1155767021 is not a valid phone number.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2023-01-30T17:49:11.268] [WARN] default - Error: Invalid login: 535-5.7.8 Username and Password not accepted. Learn more at
+535 5.7.8  https://support.google.com/mail/?p=BadCredentials c14-20020a9d614e000000b0068bd04b4292sm1824085otk.31 - gsmtp
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535-5.7.8 Username and Password not accepted. Learn more at\n' +
+    '535 5.7.8  https://support.google.com/mail/?p=BadCredentials c14-20020a9d614e000000b0068bd04b4292sm1824085otk.31 - gsmtp',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T17:49:13.623] [WARN] default - RestException [Error]: The 'To' number 1155767021 is not a valid phone number.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2023-01-30T17:54:28.503] [WARN] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T17:54:29.642] [WARN] default - RestException [Error]: Authenticate
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2023-01-30T17:56:28.065] [WARN] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T17:56:29.027] [WARN] default - RestException [Error]: Authenticate
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2023-01-30T18:00:34.995] [WARN] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T18:00:36.160] [WARN] default - RestException [Error]: Authenticate
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2023-01-30T18:02:33.988] [WARN] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T18:02:34.832] [WARN] default - RestException [Error]: Authenticate
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 401,
+  code: 20003,
+  moreInfo: 'https://www.twilio.com/docs/errors/20003',
+  details: undefined
+}
+[2023-01-30T18:05:19.335] [WARN] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T18:05:20.811] [WARN] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2023-01-30T18:14:53.678] [WARN] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T18:14:54.987] [WARN] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2023-01-30T18:16:53.347] [WARN] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T18:16:54.785] [WARN] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2023-01-30T18:18:17.789] [WARN] default - Error: Invalid login: 535 Authentication failed
+    at SMTPConnection._formatError (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:790:19)
+    at SMTPConnection._actionAUTHComplete (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:1548:34)
+    at SMTPConnection.<anonymous> (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:546:26)
+    at SMTPConnection._processResponse (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:953:20)
+    at SMTPConnection._onData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:755:14)
+    at TLSSocket.SMTPConnection._onSocketData (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/nodemailer/lib/smtp-connection/index.js:193:44)
+    at TLSSocket.emit (events.js:314:20)
+    at addChunk (_stream_readable.js:297:12)
+    at readableAddChunk (_stream_readable.js:272:9)
+    at TLSSocket.Readable.push (_stream_readable.js:213:10) {
+  code: 'EAUTH',
+  response: '535 Authentication failed',
+  responseCode: 535,
+  command: 'AUTH PLAIN'
+}
+[2023-01-30T18:18:19.096] [WARN] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2023-01-30T18:21:23.024] [WARN] default - Error: getaddrinfo EAI_AGAIN gmail
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (dns.js:74:26) {
+  errno: 'EAI_AGAIN',
+  code: 'EDNS',
+  syscall: 'getaddrinfo',
+  hostname: 'gmail',
+  command: 'CONN'
+}
+[2023-01-30T18:21:24.128] [WARN] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2023-01-30T18:23:23.062] [WARN] default - Error: getaddrinfo EAI_AGAIN gmail
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (dns.js:74:26) {
+  errno: 'EAI_AGAIN',
+  code: 'EDNS',
+  syscall: 'getaddrinfo',
+  hostname: 'gmail',
+  command: 'CONN'
+}
+[2023-01-30T18:23:24.221] [WARN] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2023-01-30T18:26:02.090] [WARN] default - Error: getaddrinfo EAI_AGAIN gmail
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (dns.js:74:26) {
+  errno: 'EAI_AGAIN',
+  code: 'EDNS',
+  syscall: 'getaddrinfo',
+  hostname: 'gmail',
+  command: 'CONN'
+}
+[2023-01-30T18:26:03.429] [WARN] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2023-01-30T18:27:11.756] [WARN] default - Error: getaddrinfo EAI_AGAIN gmail
+    at GetAddrInfoReqWrap.onlookupall [as oncomplete] (dns.js:74:26) {
+  errno: 'EAI_AGAIN',
+  code: 'EDNS',
+  syscall: 'getaddrinfo',
+  hostname: 'gmail',
+  command: 'CONN'
+}
+[2023-01-30T18:27:12.750] [WARN] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2023-01-30T18:28:47.752] [WARN] default - RestException [Error]: The From phone number +15005550006 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2023-01-30T18:31:01.287] [WARN] default - RestException [Error]: The From phone number +14155238886. is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2023-01-30T18:31:56.736] [WARN] default - RestException [Error]: The 'To' number 1155767021 is not a valid phone number.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2023-01-30T18:35:00.831] [WARN] default - RestException [Error]: The From phone number +14155238886. is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2023-01-30T18:36:02.767] [WARN] default - RestException [Error]: The From phone number +14155238886 is not a valid, SMS-capable inbound phone number or short code for your account.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21606,
+  moreInfo: 'https://www.twilio.com/docs/errors/21606',
+  details: undefined
+}
+[2023-01-30T18:37:01.142] [WARN] default - RestException [Error]: The number  is unverified. Trial accounts cannot send messages to unverified numbers; verify  at twilio.com/user/account/phone-numbers/verified, or purchase a Twilio number to send messages to unverified numbers.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21608,
+  moreInfo: 'https://www.twilio.com/docs/errors/21608',
+  details: undefined
+}
+[2023-01-30T18:39:17.636] [WARN] default - RestException [Error]: Invalid From and To pair. From and To should be of the same channel
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21910,
+  moreInfo: 'https://www.twilio.com/docs/errors/21910',
+  details: undefined
+}
+[2023-01-30T18:40:04.969] [WARN] default - RestException [Error]: Twilio could not find a Channel with the specified From address
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 63007,
+  moreInfo: 'https://www.twilio.com/docs/errors/63007',
+  details: undefined
+}
+[2023-01-30T18:46:31.377] [WARN] default - RestException [Error]: The 'To' number 1155767021 is not a valid phone number.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
+[2023-01-30T18:47:29.564] [WARN] default - RestException [Error]: The 'To' number 1155767021 is not a valid phone number.
+    at success (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/twilio/lib/base/Version.js:135:15)
+    at Promise_then_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:766:44)
+    at Promise_done_fulfilled (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:835:31)
+    at Fulfilled_dispatch [as dispatch] (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1229:9)
+    at Pending_become_eachMessage_task (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/q/q.js:1369:30)
+    at RawTask.call (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/asap.js:40:19)
+    at flush (/home/matias/Escritorio/Programacion-Backend---CoderHouse-main/Entrega14/node_modules/asap/raw.js:50:29)
+    at processTicksAndRejections (internal/process/task_queues.js:79:11) {
+  status: 400,
+  code: 21211,
+  moreInfo: 'https://www.twilio.com/docs/errors/21211',
+  details: undefined
+}
