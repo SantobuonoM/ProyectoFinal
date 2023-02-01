@@ -108,36 +108,7 @@ app.use('/chat', chatRouter)
 
 centro_mensajes(io)
 
-// const schemaAuthor = new schema.Entity('author', {}, {idAttribute: 'email'})
-// const schemaMensaje = new schema.Entity('post', { author: schemaAuthor }, {idAttribute: 'id'})
-// const schemaMensajes = new schema.Entity('posts', { mensajes: [schemaMensaje] }, {idAttribute: 'id'})
 
-//const normalizarMensaje = (mensajesConId) => normalize(mensajesConId, schemaMensajes)
-
-
-// io.on('connection', async (socket) => {
-//     console.log(`Un nuevo cliente se conecto ${socket.id}`)
-
-//     //const elem = await listarMensajesNormalizados()
-//     //console.log(util.inspect(elem, false, 12, true))
-
-//     io.sockets.emit('mensajes', await listarMensajesNormalizados())
-//     //socket.emit('mensajes', await mensajesApi.listarAll())
-
-//     socket.on('nuevoMensaje', async mensaje => {
-//         mensaje.fyh = new Date().toLocaleString()
-//         await mensajesApi.guardar(mensaje)
-//         console.log(mensaje)
-//         io.sockets.emit('mensajes', await listarMensajesNormalizados())
-//         //socket.emit('mensajes', await mensajesApi.listarAll())
-//     })
-// })
-
-// async function listarMensajesNormalizados() {
-//     const mensajes = await mensajesApi.listarAll()
-//     const normalizados = normalizarMensaje({id: 'mensajes', mensajes})
-//     return normalizados
-// }
 
 let options = {default: {p: 8000}, alias: {p: 'puerto'}}
 let args = parseArgs(process.argv.slice(2), options)
@@ -153,7 +124,6 @@ if ((args.modo == "cluster") && (cluster.isPrimary)) {
     }
 
     cluster.on('exit', worker => {
-        console.log(`Worker ${process.pid} finished`)
         cluster.fork()
     })
 

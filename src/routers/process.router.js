@@ -33,13 +33,11 @@ processRouter.get('/info-no', (req, res) => {
 })
 
 processRouter.get('/api/randoms', (req, res) => {
-    //Se define la cantidad de veces que se generaran numeros
     let cant = 100000000;
     if (req.query.cant) cant = req.query.cant;
 
     const forkProcess= fork('./utils/randoms.js');
 
-    //Espera la bandera del archivo que se ejecuta en paralelo, mientras no la encuentre envia los numeros, recibidos de randoms.js al front, cuando lo recibe manda cant al proceso.
     forkProcess.on('message', msg => {
         if (msg == 'Proceso terminado') {
             forkProcess.send({ cant })

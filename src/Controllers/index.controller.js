@@ -95,7 +95,6 @@ export const redirect_login = async (req, res) => {
 
 export const no_implementada = (req, res) => {
     let ruta = req.url
-    // logger.warn(`Ruta ${ruta} con metodo ${req.method} no implementada`)
     NoImplementada(req)
     res.send('ruta no implementada')
 }

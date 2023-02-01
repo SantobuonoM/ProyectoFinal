@@ -14,6 +14,5 @@ export const producto_random = (req, res) => {
         }
         productos.push(prod)
     }
-    //console.log(req.user)
     res.render('productos', {productos})
 }

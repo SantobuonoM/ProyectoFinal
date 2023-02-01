@@ -15,7 +15,6 @@ export const getCarrito = async (req, res) => {
     if (carrito) {
         res.render('carrito', {valores_carrito})
     }
-    //console.log(carrito, carrito.productos.length)
 }
 
 export const postCarrito = async (req, res) => {
@@ -38,7 +37,6 @@ export const delete_producto_carrito = async (req, res) => {
     const id_producto = req.params.id
     const email = req.user.email
 
-    //(id_producto, email)
 
     if (id_producto) {
         await api.deleteProducto(email, id_producto)
@@ -59,5 +57,4 @@ export const compra_finalizada = async (req, res) => {
         await sendMensajeCompra(user, carrito)
         await api.borrarTodosLosProductos(email)
     }
-    //console.log(usuario, email, carrito.productos)
 }

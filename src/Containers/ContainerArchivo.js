@@ -18,7 +18,10 @@ class ContainerArchivo {
 
       archivo.push({ id: newId, ...objeto });
 
-      await fs.promises.writeFile(this.archivo, JSON.stringify(archivo, null, 2));
+      await fs.promises.writeFile(
+        this.archivo,
+        JSON.stringify(archivo, null, 2)
+      );
     } catch (error) {
       throw new Error(`Ha ocurrido un error al lista el elemento  ${error}`);
     }
@@ -37,7 +40,7 @@ class ContainerArchivo {
 
   async listarAll() {
     try {
-      let archivo = await fs.readFile(this.archivo, "utf-8");
+      let archivo = await fs.promises.readFile(this.archivo, "utf-8");
       return JSON.parse(archivo);
     } catch (e) {
       return [];
@@ -49,7 +52,10 @@ class ContainerArchivo {
     const index = archivo.findIndex((o) => o.id == id);
     if (index != -1) {
       archivo[index] = { ...archivo[index], ...objeto };
-      await fs.writeFile(this.archivo, JSON.stringify(archivo, null, 2));
+      await fs.promises.writeFile(
+        this.archivo,
+        JSON.stringify(archivo, null, 2)
+      );
       return "Actualizado";
     } else {
       return "No se encontro el elemento";
@@ -60,7 +66,10 @@ class ContainerArchivo {
     try {
       const archivo = await this.listarAll();
       const elementos = archivo.filter((o) => o.id != id);
-      await fs.writeFile(this.archivo, JSON.stringify(elementos, null, 2));
+      await fs.promises.writeFile(
+        this.archivo,
+        JSON.stringify(elementos, null, 2)
+      );
       return "Elemento borrado";
     } catch (e) {
       return "No se encontro";
@@ -68,18 +77,8 @@ class ContainerArchivo {
   }
 
   async borrarAll() {
-    await fs.writeFile(this.archivo, []);
+    await fs.promises.writeFile(this.archivo, []);
   }
 }
-
-// async function main() {
-//     const a = new ContainerArchivo('./productos.pug.json')
-//     console.log(await a.listar(3))
-//
-// await a.actualizar(2, { nombre: 'Regla'})
-// console.log(await a.listarAll())
-// await a.guardar({ nombre: 'Escuadra'})
-// }
-// main()
 
 export default ContainerArchivo;
