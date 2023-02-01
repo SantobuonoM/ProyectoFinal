@@ -12,7 +12,7 @@ class ContainerMongo {
         try {
 
             await this.conn.connect()
-
+            
             const nuevaColeccion = new this.collection({ ...objeto });
             await nuevaColeccion.save();
             return nuevaColeccion;

@@ -18,7 +18,7 @@ class ContainerArchivo {
 
       archivo.push({ id: newId, ...objeto });
 
-      await fs.writeFile(this.archivo, JSON.stringify(archivo, null, 2));
+      await fs.promises.writeFile(this.archivo, JSON.stringify(archivo, null, 2));
     } catch (error) {
       throw new Error(`Ha ocurrido un error al lista el elemento  ${error}`);
     }

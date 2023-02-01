@@ -85,7 +85,7 @@ socket.on('mensajes', mensajesN => {
     let porcentajeC = parseInt((mensajesNSize * 100) / mensajesDsize)
     //console.log(`${porcentajeC}%`)
 
-    document.querySelector('#porcentaje').innerHTML = `<h4>Porcentaje de compresión: <b> ${porcentajeC}%</b></h4>`
+   // document.querySelector('#porcentaje').innerHTML = `<h4>Porcentaje de compresión: <b> ${porcentajeC}%</b></h4>`
 
     //console.log(mensajesD.mensajes)
     render(mensajesD.mensajes)
